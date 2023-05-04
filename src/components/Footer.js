@@ -1,13 +1,13 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import Obsidian from "../public/obsidianLogo.svg";
+import Obsidian from "../../public/obsidianLogo.svg";
 
 const Footer = () => {
   return (
-    <div className="flex items-center justify-between text-xs">
+    <div className="md:flex items-center justify-between text-xs px-1">
       {/* Copyright */}
-      <p className="">
+      <div className="hidden md:block">
         © 2010 - {new Date().getFullYear()}, Built with{" "}
         <Link
           href="https://nextjs.org/"
@@ -25,17 +25,19 @@ const Footer = () => {
           TailwindCSS
         </Link>
         .
-      </p>
+      </div>
       {/* Obsidian Logo */}
-      <Link
-        href="https://github.com/Isaac-Tait/novelSplashPage"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <Image src={Obsidian} height={20} width={20} alt={"GitHub"} />
-      </Link>
+      <div className="flex justify-center mb-1">
+        <Link
+          href="https://github.com/Isaac-Tait/novelSplashPage"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Image src={Obsidian} height={20} width={20} alt={"GitHub"} />
+        </Link>
+      </div>
       {/* mountainTopCoding Plug */}
-      <p className="text-indigo-400">
+      <div className="hidden md:block">
         Another&nbsp;
         <Link
           href="https://mountaintopcoding.dev"
@@ -45,7 +47,7 @@ const Footer = () => {
           mountainTopCoding(&#127956;);
         </Link>{" "}
         project
-      </p>
+      </div>
     </div>
   );
 };
