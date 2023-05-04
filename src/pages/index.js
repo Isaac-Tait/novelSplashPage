@@ -1,24 +1,38 @@
-import Image from "next/image";
+// import Image from "next/image";
 import Link from "next/link";
-
-import { Inter } from "next/font/google";
-
-const inter = Inter({ subsets: ["latin"] });
 
 import Footer from "../../components/Footer";
 
 export default function Home() {
   return (
-    <div>
-      <main
-        className={`flex min-h-screen flex-col items-center justify-between p-24 ${inter.className}`}
-      >
-        <div className="bg-blue-300 w-full flex justify-center rounded-xl">
-          <h1 className="text-2xl font-black tracking-wider">Wormwood Saga</h1>
-        </div>
+    <div className="heropattern-topography-yellow-400 bg-gray-100 pt-2 h-screen">
+      <header className="flex justify-between px-2 max-w-7xl mx-auto bg-slate-500 rounded-xl">
+        <Link
+          href="https://story.wormwoodsaga.com"
+          target="__blank"
+          className="text-yellow-500 text-2xl font-semibold tracking-widest hover:text-white"
+        >
+          Read the Story
+        </Link>
+        <Link
+          href="https://www.buymeacoffee.com/Isaactait"
+          target="__blank"
+          className="text-yellow-500 text-2xl font-semibold tracking-widest hover:text-white"
+        >
+          Support the Author
+        </Link>
+        <Link
+          href="https://mountaintopcoding.dev"
+          target="__blank"
+          className="text-yellow-500 text-2xl font-semibold tracking-widest hover:text-white"
+        >
+          Who Am I?
+        </Link>
+      </header>
+      <main className="flex flex-col items-center justify-between p-24">
         <div>
           <h3 className="text-lg font-medium tracking-wide">
-            The saga is available to all to read. If you feel inclined you can{" "}
+            The saga is available to all. If you feel inclined you can{" "}
             <Link
               href="https://www.buymeacoffee.com/Isaactait"
               target="__blank"
@@ -30,7 +44,7 @@ export default function Home() {
           </h3>
         </div>
       </main>
-      <div className="fixed bottom-0 w-full px-2 pb-2">
+      <div className="fixed bottom-0 w-full">
         <Footer />
       </div>
     </div>

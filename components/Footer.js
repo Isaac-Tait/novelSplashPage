@@ -6,8 +6,8 @@ import Obsidian from "../public/obsidianLogo.svg";
 const Footer = () => {
   return (
     <div className="hidden md:block">
-      <div className="flex items-center justify-between text-xs mx-1">
-        <div className="text-slate-500 w-1/3">
+      <div className="flex items-center justify-between text-xs">
+        <div className="w-1/3">
           <p className="">
             © 2010 - {new Date().getFullYear()}, Built with{" "}
             <Link
@@ -30,7 +30,7 @@ const Footer = () => {
             .
           </p>
         </div>
-        <div className="mt-2 flex justify-center w-1/3 pb-1">
+        <div className="w-1/3">
           <Link
             href="https://github.com/Isaac-Tait/novelSplashPage"
             target="_blank"
@@ -39,7 +39,7 @@ const Footer = () => {
             <Image src={Obsidian} height={20} width={20} alt={"GitHub"} />
           </Link>
         </div>
-        <div className="text-slate-500 w-1/3 flex justify-end">
+        <div className="w-1/3">
           <p className="">
             Another&nbsp;
             <Link
