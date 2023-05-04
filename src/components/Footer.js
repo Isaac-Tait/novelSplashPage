@@ -5,7 +5,7 @@ import Obsidian from "../../public/obsidianLogo.svg";
 
 const Footer = () => {
   return (
-    <div className="md:flex items-center justify-between text-xs px-1">
+    <div className="md:flex items-center justify-between text-xs px-1 font-serif">
       {/* Copyright */}
       <div className="hidden md:block">
         © 2010 - {new Date().getFullYear()}, Built with{" "}

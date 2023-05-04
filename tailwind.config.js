@@ -8,7 +8,12 @@ module.exports = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: ["Bruno Ace SC", "sans-serif"],
+        serif: ["Raleway", "serif"],
+      },
+    },
     heroPatterns: {
       topography: heroPatterns.topography,
     },
