@@ -30,7 +30,7 @@ export default function Home() {
           </h3>
         </div>
       </main>
-      <div className="fixed bottom-0 w-full">
+      <div className="fixed bottom-0 w-full px-2 pb-2">
         <Footer />
       </div>
     </div>

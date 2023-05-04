@@ -1,4 +1,3 @@
-import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -10,7 +9,7 @@ const Footer = () => {
       <div className="flex items-center justify-between text-xs mx-1">
         <div className="text-slate-500 w-1/3">
           <p className="">
-            © 2010 - {new Date().getFullYear()}, Built with&nbsp;
+            © 2010 - {new Date().getFullYear()}, Built with{" "}
             <Link
               href="https://nextjs.org/"
               className="text-indigo-500 hover:text-amber-400"
@@ -36,7 +35,6 @@ const Footer = () => {
             href="https://github.com/Isaac-Tait/novelSplashPage"
             target="_blank"
             rel="noopener noreferrer"
-            legacyBehavior
           >
             <Image src={Obsidian} height={20} width={20} alt={"GitHub"} />
           </Link>
@@ -49,7 +47,6 @@ const Footer = () => {
               className="text-indigo-500 hover:text-fuchsia-400"
               target="_blank"
               rel="noopener noreferrer"
-              legacyBehavior
             >
               mountainTopCoding(&#127956;);
             </Link>{" "}
