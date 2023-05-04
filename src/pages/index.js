@@ -1,8 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import Mountain from "../../public/andorMountain.JPG";
-
 import Footer from "../components/Footer";
 
 export default function Home() {
@@ -32,24 +30,26 @@ export default function Home() {
         </Link>
       </header>
       <main className="flex flex-col items-center justify-between p-4">
-        <h1 className="font-semibold text-4xl text-center lg:text-6xl tracking-wider font-sans py-4 lg:py-8 xl:py-16">
+        <h1 className="font-semibold text-4xl text-center lg:text-6xl tracking-wider font-sans py-4 lg:py-8 xl:py-10">
           Wormwood Saga
         </h1>
         {/* sm breakpoint image */}
         <Image
-          src={Mountain}
+          src="https://res.cloudinary.com/mountaintopcoding-127956/image/upload/v1683218121/Andor_s_Mountain_refrry.jpg"
           alt="watercolor painting of Andor's mountain"
           height={400}
+          width={600}
           className="mx-auto rounded-xl block 2xl:hidden"
         />
         {/* 2xl breakpoint image */}
         <Image
-          src={Mountain}
+          src="https://res.cloudinary.com/mountaintopcoding-127956/image/upload/v1683218121/Andor_s_Mountain_refrry.jpg"
           alt="watercolor painting of Andor's mountain"
-          height={700}
+          height={600}
+          width={800}
           className="mx-auto rounded-xl hidden 2xl:block"
         />
-        <h3 className="text-sm md:text-lg lg:text-xl font-medium tracking-wide text-center p-4 md:p-10 lg:p-20 font-mono">
+        <h3 className="text-sm md:text-lg lg:text-xl font-medium tracking-wide text-center p-4 md:p-6 lg:p-10 font-mono">
           The saga is available to all. If you feel inclined you can{" "}
           <Link
             href="https://www.buymeacoffee.com/Isaactait"
