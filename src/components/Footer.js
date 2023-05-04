@@ -13,6 +13,7 @@ const Footer = () => {
           href="https://nextjs.org/"
           target="_blank"
           rel="noopener noreferrer"
+          className="text-indigo-400 hover:text-amber-500"
         >
           Next.js
         </Link>{" "}
@@ -21,6 +22,7 @@ const Footer = () => {
           href="https://tailwindcss.com"
           target="_blank"
           rel="noopener noreferrer"
+          className="text-indigo-400 hover:text-amber-500"
         >
           TailwindCSS
         </Link>
@@ -43,6 +45,7 @@ const Footer = () => {
           href="https://mountaintopcoding.dev"
           target="_blank"
           rel="noopener noreferrer"
+          className="text-indigo-400 hover:text-amber-500"
         >
           mountainTopCoding(&#127956;);
         </Link>{" "}
