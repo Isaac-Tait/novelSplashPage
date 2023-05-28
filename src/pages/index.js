@@ -22,11 +22,11 @@ export default function Home() {
           Support the Author
         </Link>
         <Link
-          href="https://www.instagram.com/wormwood_saga/"
+          href="/newsletter"
           target="__blank"
           className="text-yellow-500 text-xs md:text-2xl font-semibold tracking-widest hover:text-white"
         >
-          Instagram
+          Newsletter
         </Link>
       </header>
       <main className="flex flex-col items-center justify-between p-4">
