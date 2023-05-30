@@ -13,7 +13,7 @@ export default function Home() {
             target="__blank"
             className="text-yellow-500 text-base text-center md:text-2xl font-semibold tracking-widest hover:text-white"
           >
-            Read the Story
+            Read the Saga
           </Link>
           <Link
             href="/newsletter"
