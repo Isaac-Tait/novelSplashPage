@@ -28,11 +28,18 @@ export default function Home() {
           Support The Author
         </Link>
       </header>
-      <div className="flex justify-center pt-8">
+      <p className="text-sm md:text-lg lg:text-xl font-medium tracking-wide text-center p-4 md:p-6 lg:p-10 font-mono text-slate-700">
+        Once I have wrapped up the first part of the Saga (I am still working on
+        Part IV) I am also envisioning several novella side stories to
+        compliment the saga. To be sure you do not miss any new content when
+        they are released please complete the form below. I will only contact
+        you regarding Wormwood Saga - I promise.
+      </p>
+      <div className="flex justify-center pt-2">
         <iframe
           src="https://docs.google.com/forms/d/e/1FAIpQLSeKHGWCJ9qrkxEAYrDXj_OWEikxYPXon9n19iGXjDRALAhozA/viewform?embedded=true"
           width="640"
-          height="1000"
+          height="850"
           frameborder="0"
           marginheight="0"
           marginwidth="0"
