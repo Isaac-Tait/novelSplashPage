@@ -49,19 +49,20 @@ export default function Home() {
           width={800}
           className="mx-auto rounded-xl hidden 2xl:block"
         />
-        <h3 className="text-sm md:text-lg lg:text-xl font-medium tracking-wide text-center p-4 md:p-6 lg:p-10 font-mono text-slate-700">
-          In a story as old as time Andor and Lilli - two young people whose
-          lives are &#34;normal&#34; - discover each other and fall in love.
-          However, as their love blossoms and grows a cosmic battle, that spans
-          the multiverse, destined to unleash cataclysmic destruction upends
-          their idyllic suburban &#34;American dream&#34;. Through the chaos
-          they find themselves thrust into a fight for survival against the
-          elements&nbsp;
-          <span className="font-bold">and</span> an ancient evil. As they
-          descend into the depths of lost hope, uncertainty, and a society
-          plunged into the dark ages will they find the strength to survive and
-          give the world a fighting chance for redemption?
-        </h3>
+        <div className="bg-white opacity-70 rounded-lg mt-2">
+          <h3 className="text-sm md:text-lg lg:text-xl font-medium tracking-wide text-center p-4 md:p-6 lg:p-10 font-mono text-slate-700">
+            In a story as old as time Andor and Lilli meet and fall in love.
+            However, as their love blossoms and then evolves a cosmic battle,
+            that spans the multiverse, destined to unleash cataclysmic
+            destruction upends their idyllic suburban &#34;American dream&#34;.
+            Through the chaos they find themselves thrust into a fight for
+            survival against the elements&nbsp;
+            <span className="font-bold">and</span> an ancient evil. As they
+            descend into the depths of lost hope, uncertainty, and a society
+            plunged into the dark ages will they find the strength to survive
+            and give the world a fighting chance for redemption?
+          </h3>
+        </div>
       </main>
       <Footer />
     </div>

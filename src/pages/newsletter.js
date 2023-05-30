@@ -4,28 +4,28 @@ import Footer from "../components/Footer";
 
 export default function Home() {
   return (
-    <div className="heropattern-topography-yellow-400 bg-gray-100 pt-2 h-screen">
-      <header className="flex justify-between px-2 max-w-7xl mx-auto bg-slate-600 rounded-xl font-serif">
+    <div className="heropattern-topography-yellow-400 bg-gray-100 h-screen overflow-y-scroll">
+      <header className="flex px-2 max-w-7xl mx-auto bg-slate-600 md:rounded-xl font-serif">
+        <Link
+          href="https://story.wormwoodsaga.com"
+          target="__blank"
+          className="text-yellow-500 text-base text-center md:text-2xl font-semibold tracking-widest hover:text-white"
+        >
+          Read The Story
+        </Link>
         <Link
           href="/"
           target="__blank"
-          className="text-yellow-500 text-xs md:text-2xl font-semibold tracking-widest hover:text-white"
+          className="text-yellow-500 text-base text-center md:text-2xl font-semibold tracking-widest hover:text-white my-auto"
         >
           Home
         </Link>
         <Link
-          href="https://story.wormwoodsaga.com"
-          target="__blank"
-          className="text-yellow-500 text-xs md:text-2xl font-semibold tracking-widest hover:text-white"
-        >
-          Saga
-        </Link>
-        <Link
           href="https://www.buymeacoffee.com/Isaactait"
           target="__blank"
-          className="text-yellow-500 text-xs md:text-2xl font-semibold tracking-widest hover:text-white"
+          className="text-yellow-500 text-base text-center md:text-2xl font-semibold tracking-widest hover:text-white"
         >
-          Support
+          Support The Author
         </Link>
       </header>
       <div className="flex justify-center pt-8">
