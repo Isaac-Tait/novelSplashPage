@@ -6,31 +6,29 @@ import Footer from "../components/Footer";
 export default function Home() {
   return (
     <div className="heropattern-topography-yellow-400 bg-gray-100 pt-2 h-screen overflow-y-scroll">
-      <div className="w-full bg-white">
-        <header className="fixed top-0 w-full flex justify-between px-2 bg-slate-600 font-serif">
-          <Link
-            href="https://story.wormwoodsaga.com"
-            target="__blank"
-            className="text-yellow-500 text-base text-center md:text-2xl font-semibold tracking-widest hover:text-white"
-          >
-            Read the Saga
-          </Link>
-          <Link
-            href="/newsletter"
-            target="__blank"
-            className="text-yellow-500 text-base text-center md:text-2xl font-semibold tracking-widest hover:text-white my-auto"
-          >
-            Newsletter
-          </Link>
-          <Link
-            href="https://www.buymeacoffee.com/Isaactait"
-            target="__blank"
-            className="text-yellow-500 text-base text-center md:text-2xl font-semibold tracking-widest hover:text-white"
-          >
-            Support the Author
-          </Link>
-        </header>
-      </div>
+      <header className="fixed top-0 w-full flex justify-between px-2 bg-slate-600 font-serif">
+        <Link
+          href="https://story.wormwoodsaga.com"
+          target="__blank"
+          className="text-yellow-500 text-base text-center md:text-2xl font-semibold tracking-widest hover:text-white"
+        >
+          Read the Saga
+        </Link>
+        <Link
+          href="/newsletter"
+          target="__blank"
+          className="text-yellow-500 text-base text-center md:text-2xl font-semibold tracking-widest hover:text-white my-auto"
+        >
+          Newsletter
+        </Link>
+        <Link
+          href="https://www.buymeacoffee.com/Isaactait"
+          target="__blank"
+          className="text-yellow-500 text-base text-center md:text-2xl font-semibold tracking-widest hover:text-white"
+        >
+          Support the Author
+        </Link>
+      </header>
       <main className="flex flex-col items-center justify-between p-4">
         <h1 className="font-semibold text-4xl text-center lg:text-6xl tracking-wider font-sans py-4 lg:py-8 xl:py-10 text-slate-600 mt-4">
           Wormwood Saga
