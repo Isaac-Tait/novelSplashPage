@@ -2,6 +2,9 @@ import React from "react";
 import { loadStripe } from "@stripe/stripe-js";
 
 import Image from "next/image";
+import Link from "next/link";
+
+import Footer from "../components/Footer";
 
 // Make sure to call `loadStripe` outside of a component’s render to avoid
 // recreating the `Stripe` object on every render.
@@ -18,49 +21,90 @@ export default function PreviewPage() {
 
     if (query.get("canceled")) {
       console.log(
-        "Order canceled -- continue to shop around and checkout when you’re ready."
+        "Order canceled -- continue to shop around and checkout when you are ready."
       );
     }
   });
 
   return (
-    <form
-      action="/api/checkout_sessions"
-      method="POST"
-      className="heropattern-topography-yellow-400 bg-gray-100 h-screen"
-    >
-      <section>
-        <Image
-          src="https://res.cloudinary.com/mountaintopcoding-127956/image/upload/v1691976687/Novel/portrait_s6wbst.jpg"
-          alt="author trail running portrait"
-          width="300"
-          height="450"
-          className="rounded-xl"
-        />
-        <div></div>
-        <button
-          type="submit"
-          role="link"
-          className="h-12 p-2 bg-indigo-500 rounded-xl text-slate-300 cursor-pointer font-semibold"
-        >
-          Donate to the Saga
-        </button>
-      </section>
-      <style jsx>
-        {`
-          form {
-            display: grid;
-            place-content: center;
-          }
-          button {
-            transition: all 0.2s ease;
-            box-shadow: 0px 4px 5.5px 0px rgba(0, 0, 0, 0.07);
-          }
-          button:hover {
-            opacity: 0.8;
-          }
-        `}
-      </style>
-    </form>
+    <div className="heropattern-topography-yellow-400 bg-gray-100 flex flex-col min-h-screen overflow-y-auto">
+      <header className="fixed top-0 w-full px-2 bg-slate-600 font-serif">
+        <div className="flex max-w-4xl justify-between mx-auto">
+          <Link
+            href="https://story.wormwoodsaga.com"
+            target="__blank"
+            className="text-yellow-500 text-base text-center md:text-2xl font-semibold tracking-widest hover:text-white"
+          >
+            Read the Saga
+          </Link>
+          <Link
+            href="/newsletter"
+            target="__blank"
+            className="text-yellow-500 text-base text-center md:text-2xl font-semibold tracking-widest hover:text-white my-auto"
+          >
+            Newsletter
+          </Link>
+        </div>
+      </header>
+      <form action="/api/checkout_sessions" method="POST">
+        <section className="flex flex-col max-w-5xl mx-auto justify-center pt-8 md:pt-20">
+          <Image
+            src="https://res.cloudinary.com/mountaintopcoding-127956/image/upload/v1691976687/Novel/portrait_s6wbst.jpg"
+            alt="author trail running portrait"
+            width="300"
+            height="450"
+            className="rounded-xl mx-auto"
+          />
+          <div className="my-auto p-2">
+            <h1 className="font-serif font-semibold text-2xl text-center">
+              Hello, thank you for your interest in supporting{" "}
+            </h1>
+            <h1 className="font-sans font-semibold text-2xl text-center">
+              Wormwood Saga
+            </h1>
+            <p className="font-serif bg-gray-100 opacity-70 text-slate-900 text-center">
+              I chose to self publish my novel so that I could own 100% of my
+              creation. The average cost of a book online is $9.50 (they range
+              between $4 and $15). Of course the author on those platforms has
+              to pay editors, designers, publishers, publicists, and the company
+              &quot;selling&quot; their book. As an indie author I have worn all
+              those hats in the publication of my book. It was a lot of work but
+              also very rewarding. So, thanks for being here. I hope the saga
+              has had (is having) a positive impact on you.{" "}
+            </p>
+            <p className="font-serif bg-gray-100 opacity-70 text-slate-900 text-center">
+              Namaste
+              <span role="img" aria-label="folded hands">
+                &#128591;
+              </span>{" "}
+            </p>
+          </div>
+          <div className="flex justify-center w-full md:pt-20 pb-20">
+            <button
+              type="submit"
+              role="link"
+              className="md:h-12 p-2 md:w-1/4 mx-auto bg-indigo-500 rounded-xl text-slate-300 cursor-pointer font-semibold"
+            >
+              Support the saga
+            </button>
+          </div>
+        </section>
+
+        <style jsx>
+          {`
+            button {
+              transition: all 0.2s ease;
+              box-shadow: 0px 4px 5.5px 0px rgba(0, 0, 0, 0.07);
+            }
+            button:hover {
+              opacity: 0.8;
+            }
+          `}
+        </style>
+      </form>
+      <div className="mt-auto pb-2">
+        <Footer />
+      </div>
+    </div>
   );
 }

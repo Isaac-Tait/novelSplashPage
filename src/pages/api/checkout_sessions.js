@@ -7,18 +7,8 @@ export default async function handler(req, res) {
       const session = await stripe.checkout.sessions.create({
         line_items: [
           {
-            // Bronze Support
-            price: "price_1NepCPAgupLI86WrjYWzVqZN",
-            quantity: 1,
-          },
-          {
-            // Silver Support
-            price: "price_1NepCwAgupLI86WrvlIdJZmc",
-            quantity: 1,
-          },
-          {
-            // Gold Support
-            price: "price_1NepDgAgupLI86WrjDnvWCrF",
+            // Donation/Support
+            price: "price_1Nf6cpAgupLI86WrhwlX3vSZ",
             quantity: 1,
           },
         ],
