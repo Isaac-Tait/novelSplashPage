@@ -33,21 +33,21 @@ export default function PreviewPage() {
           <Link
             href="https://story.wormwoodsaga.com"
             target="__blank"
-            className="text-yellow-500 text-base text-center md:text-2xl font-semibold tracking-widest hover:text-white"
+            className="text-yellow-500 text-sm text-center md:text-2xl font-semibold tracking-widest hover:text-white"
           >
             Read the Saga
           </Link>
           <Link
             href="/"
             target="__blank"
-            className="text-yellow-500 text-base text-center md:text-2xl font-semibold tracking-widest hover:text-white"
+            className="text-yellow-500 text-sm text-center md:text-2xl font-semibold tracking-widest hover:text-white"
           >
             Home
           </Link>
           <Link
             href="/newsletter"
             target="__blank"
-            className="text-yellow-500 text-base text-center md:text-2xl font-semibold tracking-widest hover:text-white my-auto"
+            className="text-yellow-500 text-sm text-center md:text-2xl font-semibold tracking-widest hover:text-white my-auto"
           >
             Newsletter
           </Link>
