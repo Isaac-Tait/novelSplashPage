@@ -22,7 +22,7 @@ export default function Home() {
           Newsletter
         </Link>
         <Link
-          href="https://www.buymeacoffee.com/Isaactait"
+          href="/support"
           target="__blank"
           className="text-yellow-500 text-base text-center md:text-2xl font-semibold tracking-widest hover:text-white"
         >
