@@ -7,13 +7,13 @@ export default function Home() {
   return (
     <div className="heropattern-topography-yellow-400 bg-gray-100 pt-2 flex flex-col min-h-screen overflow-y-scroll">
       <header className="fixed top-0 w-full md:px-2 bg-slate-600 font-serif">
-        <div className="flex max-w-4xl justify-between mx-auto">
+        <div className="flex max-w-4xl justify-between mx-auto px-2">
           <Link
             href="https://story.wormwoodsaga.com"
             target="__blank"
             className="text-yellow-500 text-sm text-center md:text-2xl font-semibold tracking-widest hover:text-white"
           >
-            Read the Saga
+            Read
           </Link>
           <Link
             href="/newsletter"
@@ -27,7 +27,7 @@ export default function Home() {
             target="__blank"
             className="text-yellow-500 text-sm text-center md:text-2xl font-semibold tracking-widest hover:text-white"
           >
-            Support the Author
+            Support
           </Link>
         </div>
       </header>

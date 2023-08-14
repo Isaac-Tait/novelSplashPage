@@ -35,7 +35,7 @@ export default function PreviewPage() {
             target="__blank"
             className="text-yellow-500 text-sm text-center md:text-2xl font-semibold tracking-widest hover:text-white"
           >
-            Read the Saga
+            Read
           </Link>
           <Link
             href="/"
