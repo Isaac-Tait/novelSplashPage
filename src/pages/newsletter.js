@@ -5,28 +5,30 @@ import Footer from "../components/Footer";
 export default function Home() {
   return (
     <div className="heropattern-topography-yellow-400 bg-gray-100 h-screen overflow-y-scroll">
-      <header className="fixed top-0 flex justify-between px-2 w-full bg-slate-600 font-serif">
-        <Link
-          href="https://story.wormwoodsaga.com"
-          target="__blank"
-          className="text-yellow-500 text-base text-center md:text-2xl font-semibold tracking-widest hover:text-white"
-        >
-          Read The Saga
-        </Link>
-        <Link
-          href="/"
-          target="__blank"
-          className="text-yellow-500 text-base text-center md:text-2xl font-semibold tracking-widest hover:text-white my-auto"
-        >
-          Home
-        </Link>
-        <Link
-          href="https://www.buymeacoffee.com/Isaactait"
-          target="__blank"
-          className="text-yellow-500 text-base text-center md:text-2xl font-semibold tracking-widest hover:text-white"
-        >
-          Support The Author
-        </Link>
+      <header className="fixed top-0 w-full px-2 bg-slate-600 font-serif">
+        <div className="flex max-w-4xl justify-between mx-auto">
+          <Link
+            href="https://story.wormwoodsaga.com"
+            target="__blank"
+            className="text-yellow-500 text-base text-center md:text-2xl font-semibold tracking-widest hover:text-white"
+          >
+            Read The Saga
+          </Link>
+          <Link
+            href="/"
+            target="__blank"
+            className="text-yellow-500 text-base text-center md:text-2xl font-semibold tracking-widest hover:text-white my-auto"
+          >
+            Home
+          </Link>
+          <Link
+            href="/support"
+            target="__blank"
+            className="text-yellow-500 text-base text-center md:text-2xl font-semibold tracking-widest hover:text-white"
+          >
+            Support The Author
+          </Link>
+        </div>
       </header>
       <p className="text-sm md:text-lg lg:text-xl font-medium tracking-wide text-center p-4 md:p-6 lg:p-10 font-mono text-slate-700">
         Once I have wrapped up the first part of the Saga{" "}

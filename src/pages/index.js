@@ -5,29 +5,31 @@ import Footer from "../components/Footer";
 
 export default function Home() {
   return (
-    <div className="heropattern-topography-yellow-400 bg-gray-100 pt-2 h-screen overflow-y-scroll">
-      <header className="fixed top-0 w-full flex justify-between px-2 bg-slate-600 font-serif">
-        <Link
-          href="https://story.wormwoodsaga.com"
-          target="__blank"
-          className="text-yellow-500 text-base text-center md:text-2xl font-semibold tracking-widest hover:text-white"
-        >
-          Read the Saga
-        </Link>
-        <Link
-          href="/newsletter"
-          target="__blank"
-          className="text-yellow-500 text-base text-center md:text-2xl font-semibold tracking-widest hover:text-white my-auto"
-        >
-          Newsletter
-        </Link>
-        <Link
-          href="/support"
-          target="__blank"
-          className="text-yellow-500 text-base text-center md:text-2xl font-semibold tracking-widest hover:text-white"
-        >
-          Support the Author
-        </Link>
+    <div className="heropattern-topography-yellow-400 bg-gray-100 pt-2 flex flex-col min-h-screen overflow-y-scroll">
+      <header className="fixed top-0 w-full px-2 bg-slate-600 font-serif">
+        <div className="flex max-w-4xl justify-between mx-auto">
+          <Link
+            href="https://story.wormwoodsaga.com"
+            target="__blank"
+            className="text-yellow-500 text-base text-center md:text-2xl font-semibold tracking-widest hover:text-white"
+          >
+            Read the Saga
+          </Link>
+          <Link
+            href="/newsletter"
+            target="__blank"
+            className="text-yellow-500 text-base text-center md:text-2xl font-semibold tracking-widest hover:text-white my-auto"
+          >
+            Newsletter
+          </Link>
+          <Link
+            href="/support"
+            target="__blank"
+            className="text-yellow-500 text-base text-center md:text-2xl font-semibold tracking-widest hover:text-white"
+          >
+            Support the Author
+          </Link>
+        </div>
       </header>
       <main className="flex flex-col items-center justify-between p-4">
         <h1 className="font-semibold text-4xl text-center lg:text-6xl tracking-wider font-sans py-4 lg:py-8 xl:py-10 text-slate-600 mt-4">
@@ -64,7 +66,9 @@ export default function Home() {
           </h3>
         </div>
       </main>
-      <Footer />
+      <div className="mt-auto pb-2">
+        <Footer />
+      </div>
     </div>
   );
 }

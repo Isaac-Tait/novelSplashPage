@@ -38,6 +38,13 @@ export default function PreviewPage() {
             Read the Saga
           </Link>
           <Link
+            href="/"
+            target="__blank"
+            className="text-yellow-500 text-base text-center md:text-2xl font-semibold tracking-widest hover:text-white"
+          >
+            Home
+          </Link>
+          <Link
             href="/newsletter"
             target="__blank"
             className="text-yellow-500 text-base text-center md:text-2xl font-semibold tracking-widest hover:text-white my-auto"
