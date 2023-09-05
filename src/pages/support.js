@@ -60,7 +60,7 @@ export default function PreviewPage() {
             alt="author trail running portrait"
             width="300"
             height="450"
-            className="rounded-xl mx-auto shadow-2xl"
+            className="rounded-xl mx-auto shadow-lg shadow-yellow-400/90"
           />
           <div className="my-auto p-2">
             <h1 className="font-serif font-semibold text-2xl text-center">
