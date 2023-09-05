@@ -69,22 +69,24 @@ export default function PreviewPage() {
             <h1 className="font-sans font-semibold text-2xl text-center">
               Wormwood Saga
             </h1>
-            <p className="font-serif bg-gray-100 opacity-70 text-slate-900 text-center">
-              I chose to self publish my novel so that I could own 100% of my
-              creation. The average cost of a book online is $9.50 (they range
-              between $4 and $15). Of course the author on those platforms has
-              to pay editors, designers, publishers, publicists, and the company
-              &quot;selling&quot; their book. As an indie author I have worn all
-              those hats in the publication of my book. It was a lot of work but
-              also very rewarding. So, thanks for being here. I hope the saga
-              has had (is having) a positive impact on you.{" "}
-            </p>
-            <p className="font-serif bg-gray-100 opacity-70 text-slate-900 text-center">
-              Namaste
-              <span role="img" aria-label="folded hands">
-                &#128591;
-              </span>{" "}
-            </p>
+            <div className="backdrop-opacity-10 backdrop-invert bg-white/50 rounded-lg">
+              <p className="font-serif  text-slate-900 text-center">
+                I chose to self publish my novel so that I could own 100% of my
+                creation. The average cost of a book online is $9.50 (they range
+                between $4 and $15). Of course the author on those platforms has
+                to pay editors, designers, publishers, publicists, and the
+                company &quot;selling&quot; their book. As an indie author I
+                have worn all those hats in the publication of my book. It was a
+                lot of work but also very rewarding. So, thanks for being here.
+                I hope the saga has had (is having) a positive impact on you.{" "}
+              </p>
+              <p className="font-serif text-slate-900 text-center">
+                Namaste
+                <span role="img" aria-label="folded hands">
+                  &#128591;
+                </span>{" "}
+              </p>
+            </div>
           </div>
           <div className="flex justify-center w-full md:pt-20 pb-20">
             <button
