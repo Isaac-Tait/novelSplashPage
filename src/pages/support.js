@@ -60,11 +60,15 @@ export default function PreviewPage() {
             alt="author trail running portrait"
             width="300"
             height="450"
-            className="rounded-xl mx-auto"
+            className="rounded-xl mx-auto shadow-2xl"
           />
           <div className="my-auto p-2">
             <h1 className="font-serif font-semibold text-2xl text-center">
-              Hello, thank you for your interest in supporting{" "}
+              Greetings{" "}
+              <span role="img" aria-label="vulcan salute">
+                &#128406;
+              </span>{" "}
+              Thank you for your interest in supporting{" "}
             </h1>
             <h1 className="font-sans font-semibold text-2xl text-center">
               Wormwood Saga
@@ -80,7 +84,7 @@ export default function PreviewPage() {
                 lot of work but also very rewarding. So, thanks for being here.
                 I hope the saga has had (is having) a positive impact on you.{" "}
               </p>
-              <p className="font-serif text-slate-900 text-center">
+              <p className="font-serif text-slate-900 text-center mt-4">
                 Namaste
                 <span role="img" aria-label="folded hands">
                   &#128591;
