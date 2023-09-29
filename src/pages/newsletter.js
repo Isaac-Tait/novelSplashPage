@@ -31,14 +31,12 @@ export default function Home() {
         </div>
       </header>
       <p className="text-sm md:text-lg lg:text-xl font-medium tracking-wide text-center pt-8 md:p-6 lg:p-10 font-mono text-slate-700">
-        Once I have wrapped up the first part of the Saga{" "}
-        <span className="italic text-sm">
-          (Spring 2023 - I am currently writing Book Two)
-        </span>
-        . I am also envisioning several novella side stories to compliment the
-        saga. To be sure you do not miss any new content when they are released
-        please complete the form below. I will only contact you regarding
-        Wormwood Saga - I promise.
+        I have published the first part of the Saga. As of the spring of 2023 I
+        am currently working on Book Two. Once Book Two (and Book Three) are
+        published I am also envisioning several novella side stories to
+        compliment the saga. To be sure you do not miss any new content when
+        they are released please complete the form below. I will only contact
+        you regarding Wormwood Saga - I promise.
       </p>
       <div className="flex justify-center pt-2">
         <iframe
