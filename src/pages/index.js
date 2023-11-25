@@ -23,14 +23,12 @@ export default function Home() {
             </Link>
             <Link
               href="/newsletter"
-              target="__blank"
               className="text-yellow-500 text-sm text-center md:text-2xl font-semibold tracking-widest hover:text-white my-auto"
             >
               Newsletter
             </Link>
             <Link
               href="/support"
-              target="__blank"
               className="text-yellow-500 text-sm text-center md:text-2xl font-semibold tracking-widest hover:text-white"
             >
               Support
