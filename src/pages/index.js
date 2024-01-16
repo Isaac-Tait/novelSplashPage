@@ -56,21 +56,31 @@ export default function Home() {
             className="mx-auto rounded-xl hidden 2xl:block"
           />
           <div className="bg-white opacity-70 rounded-lg mt-2">
-            <h3 className="text-sm md:text-lg lg:text-xl font-medium tracking-wide text-center p-4 md:p-6 lg:p-10 font-mono text-slate-700">
-              In a vast multiverse filled with countless parallel universes, the
-              convergence of separate universes is inevitable. In one corner of
-              the multiverse, Andor and Lilli embark on the journey of an
-              idyllic American life. Their paths intertwine, leading to love,
-              and just before Andor departs to join the US Marines, they marry.
-              Meanwhile, in a distant realm, an ancient malevolence begins to
-              stir, threatening to not only overtake a kingdom but the heart of
-              the cosmos itself. As the two universes collide and the saga
-              unfolds Lilli and Andor must face a journey of hope, loss, love,
-              and death. Through this journey the two young lovers find
-              themselves thrust into a harrowing battle for survival, as they
-              grapple with the forces of evil that seek to engulf not just a
-              kingdom but the entire cosmos.
-            </h3>
+            <div className="text-sm md:text-lg lg:text-xl font-medium tracking-wide text-center p-4 md:p-6 lg:p-10 font-mono text-slate-700">
+              <h3 className="mb-1 italic font-sans">
+                &quot;In a vast multiverse filled with countless parallel
+                universes, convergence is inevitable.&quot;
+              </h3>
+              <hr />
+              <h3 className="my-2">
+                In the realm known as Earth, Andor and Lilli paths intertwine,
+                and they embark on a journey of life, and love. Through the
+                crucibles of war, destruction, and fear their love is forged.
+              </h3>
+              <h3 className="mb-2">
+                Meanwhile, in the realm known by some as Sukhavati, an ancient
+                malevolence begins to stir, threatening to not only overtake the
+                Kingdom but the heart of the cosmos itself.
+              </h3>
+              <h3 className="">
+                As the two universes collide and the saga unfolds Lilli and
+                Andor must face hope, loss, love, and death. Through this
+                journey the two young lovers find themselves thrust into a
+                harrowing battle for survival, as they grapple with the forces
+                of evil that seek to engulf not just their realm but the entire
+                cosmos.
+              </h3>
+            </div>
           </div>
         </main>
         <div className="mt-auto pb-2">
