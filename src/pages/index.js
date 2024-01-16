@@ -57,16 +57,19 @@ export default function Home() {
           />
           <div className="bg-white opacity-70 rounded-lg mt-2">
             <h3 className="text-sm md:text-lg lg:text-xl font-medium tracking-wide text-center p-4 md:p-6 lg:p-10 font-mono text-slate-700">
-              In a story as old as time Andor and Lilli meet and fall in love.
-              However, as their love blossoms and then evolves a cosmic battle,
-              that spans the multiverse, destined to unleash cataclysmic
-              destruction upends their idyllic suburban &#34;American
-              dream&#34;. Through the chaos they find themselves thrust into a
-              fight for survival against the elements&nbsp;
-              <span className="font-bold">and</span> an ancient evil. As they
-              descend into the depths of lost hope, uncertainty, and a society
-              plunged into the dark ages will they find the strength to survive
-              and give the world a fighting chance for redemption?
+              In a vast multiverse filled with countless parallel universes, the
+              convergence of separate universes is inevitable. In one corner of
+              the multiverse, Andor and Lilli embark on the journey of an
+              idyllic American life. Their paths intertwine, leading to love,
+              and just before Andor departs to join the US Marines, they marry.
+              Meanwhile, in a distant realm, an ancient malevolence begins to
+              stir, threatening to not only overtake a kingdom but the heart of
+              the cosmos itself. As the two universes collide and the saga
+              unfolds Lilli and Andor must face a journey of hope, loss, love,
+              and death. Through this journey the two young lovers find
+              themselves thrust into a harrowing battle for survival, as they
+              grapple with the forces of evil that seek to engulf not just a
+              kingdom but the entire cosmos.
             </h3>
           </div>
         </main>
