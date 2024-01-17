@@ -97,6 +97,7 @@ export default function PreviewPage() {
               type="submit"
               role="link"
               className="md:h-12 p-2 md:w-1/4 mx-auto bg-indigo-500 rounded-xl text-slate-300 cursor-pointer font-semibold"
+              target="_blank"
             >
               Support the saga
             </button>
