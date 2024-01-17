@@ -63,9 +63,11 @@ export default function Home() {
               </h3>
               <hr />
               <h3 className="my-2">
-                In the realm known as Earth, Andor and Lilli paths intertwine,
-                and they embark on a journey of life, and love. Through the
-                crucibles of war, destruction, and fear their love is forged.
+                On the realm known as Earth, Andor and Lilli paths intertwine,
+                and they embark on a journey of life together. Through the
+                crucibles of war, destruction, fear, and loss their bond is
+                forged. As their love grows they find themselves thrust into an
+                intergalactic struggle.
               </h3>
               <h3 className="mb-2">
                 Meanwhile, in the realm known by some as Sukhavati, an ancient
@@ -74,11 +76,11 @@ export default function Home() {
               </h3>
               <h3 className="">
                 As the two universes collide and the saga unfolds Lilli and
-                Andor must face hope, loss, love, and death. Through this
-                journey the two young lovers find themselves thrust into a
-                harrowing battle for survival, as they grapple with the forces
-                of evil that seek to engulf not just their realm but the entire
-                cosmos.
+                Andor love must adapt and overcome if they are to make it
+                through the carnage and chaos. Through this journey the two
+                young lovers find themselves thrust into a harrowing battle for
+                survival, as they grapple with the forces of evil that seek to
+                engulf not just their realm but the entire cosmos.
               </h3>
             </div>
           </div>
