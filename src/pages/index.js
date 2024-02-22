@@ -58,29 +58,27 @@ export default function Home() {
           <div className="bg-white opacity-70 rounded-lg mt-2">
             <div className="text-sm md:text-lg lg:text-xl font-medium tracking-wide text-center p-4 md:p-6 lg:p-10 font-mono text-slate-700">
               <h3 className="mb-1 italic font-sans">
-                &quot;In a vast multiverse filled with countless parallel
-                universes, convergence is inevitable.&quot;
+                With the demonic force vanquished life can return to normal and
+                the world can begin to heal - but not for Lilli. The grim
+                reality is that it has taken everything from her - everything
+                except for their daughter.
               </h3>
               <hr />
               <h3 className="my-2">
-                On the realm known as Earth, Andor and Lilli paths intertwine,
-                and they embark on a journey of life together. Through the
-                crucibles of war, destruction, fear, and loss their bond is
-                forged. As their love grows they find themselves thrust into an
-                intergalactic struggle.
+                In a world devoid of love, goodness, and happiness only the
+                horror of destruction, carnage, and chaos reign supreme.
+                Compelled by a global catastrophe and an ancient malevolence
+                Andor and Lilli escape to an austere landscape of craggy peaks,
+                alpine lakes, snow, and wild animals. Here, they forge new
+                connections with the land, each other, and an inter-galactic
+                task force deployed to help restore order, peace, and love to
+                the cosmos.
               </h3>
               <h3 className="mb-2">
-                Meanwhile, in the realm known by some as Sukhavati, an ancient
-                malevolence begins to stir, threatening to not only overtake the
-                Kingdom but the heart of the cosmos itself.
-              </h3>
-              <h3 className="">
-                As the two universes collide and the saga unfolds Lilli and
-                Andor love must adapt and overcome if they are to make it
-                through the carnage and chaos. Through this journey the two
-                young lovers find themselves thrust into a harrowing battle for
-                survival, as they grapple with the forces of evil that seek to
-                engulf not just their realm but the entire cosmos.
+                As the saga unfolds the two young lovers not only grapple with
+                their own survival but are thrust into the midst of an
+                intergalactic battle between the ultimate good and the most
+                heinous evil.
               </h3>
             </div>
           </div>
