@@ -70,7 +70,7 @@ export default function Home() {
                 Compelled by a global catastrophe and an ancient malevolence
                 Andor and Lilli escape to an austere landscape of craggy peaks,
                 alpine lakes, snow, and wild animals. Here, they forge new
-                connections with the land, each other, and an inter-galactic
+                connections with the land, each other, and an extra-dimensional
                 task force deployed to help restore order, peace, and love to
                 the cosmos.
               </h3>
