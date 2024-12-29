@@ -35,7 +35,7 @@ export default function Home() {
             </Link>
           </div>
         </header>
-        <main className="flex flex-col items-center justify-between p-4">
+        <main className="grow place-content-center justify-between">
           <h1 className="font-semibold text-4xl text-center lg:text-6xl tracking-wider font-sans py-4 lg:py-8 xl:py-10 text-slate-600 mt-4">
             Wormwood Saga
           </h1>
