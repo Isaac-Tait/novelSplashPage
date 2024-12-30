@@ -36,49 +36,33 @@ export default function Home() {
           </div>
         </header>
         <main className="grow place-content-center justify-between">
-          <h1 className="font-semibold text-4xl text-center lg:text-6xl tracking-wider font-sans py-4 lg:py-8 xl:py-10 text-slate-600 mt-4">
+          <h1 className="font-semibold text-4xl text-center lg:text-6xl tracking-wider font-sans p-2 text-slate-600 mt-4">
             Wormwood Saga
           </h1>
-          {/* sm breakpoint image */}
           <Image
             src="https://res.cloudinary.com/mountaintopcoding-127956/image/upload/v1683218121/Andor_s_Mountain_refrry.jpg"
             alt="watercolor painting of Andor's mountain"
             height={400}
             width={600}
-            className="mx-auto rounded-xl block 2xl:hidden"
+            className="mx-auto rounded-xl"
           />
-          {/* 2xl breakpoint image */}
-          <Image
-            src="https://res.cloudinary.com/mountaintopcoding-127956/image/upload/v1683218121/Andor_s_Mountain_refrry.jpg"
-            alt="watercolor painting of Andor's mountain"
-            height={600}
-            width={800}
-            className="mx-auto rounded-xl hidden 2xl:block"
-          />
-          <div className="bg-white opacity-70 rounded-lg mt-2">
-            <div className="text-sm md:text-lg lg:text-xl font-medium tracking-wide text-center p-4 md:p-6 lg:p-10 font-mono text-slate-700">
-              <h3 className="mb-1 italic font-sans">
-                With the demonic force vanquished life can return to normal and
-                the world can begin to heal - but not for Lilli. The grim
-                reality is that it has taken everything from her - everything
-                except for their daughter.
+          <div className="bg-white opacity-70 rounded-lg">
+            <div className="text-sm md:text-lg lg:text-xl font-medium tracking-wide text-center font-mono text-slate-700">
+              <h3 className=" italic font-sans">
+                A blend of Buddhist spirituality, Native American legend, and
+                xtian mythology, this Speculative Queer Multiverse Epic takes
+                readers on a mythical journey across realms and realities, where
+                love and karma - woven into the very fabric of time - come to a
+                head. Will it be enough to save the cosmos?
               </h3>
-              <hr />
               <h3 className="my-2">
-                In a world devoid of love, goodness, and happiness only the
-                horror of destruction, carnage, and chaos reign supreme.
-                Compelled by a global catastrophe and an ancient malevolence
-                Andor and Lilli escape to an austere landscape of craggy peaks,
-                alpine lakes, snow, and wild animals. Here, they forge new
-                connections with the land, each other, and an extra-dimensional
-                task force deployed to help restore order, peace, and love to
-                the cosmos.
-              </h3>
-              <h3 className="mb-2">
-                As the saga unfolds the two young lovers not only grapple with
-                their own survival but are thrust into the midst of an
-                intergalactic battle between the ultimate good and the most
-                heinous evil.
+                In a universe fractured by destruction and despair, Andor and
+                Lilli are forced to flee to an austere wilderness of towering
+                peaks and untamed beauty. Amid alpine lakes and the snowbound
+                wilds, they uncover a deeper connection — to the land, to each
+                other, and to an enigmatic extra-dimensional task force.
+                Together, they must battle an ancient evil, threatening not just
+                everything they hold dear, but the entire universe!
               </h3>
             </div>
           </div>
