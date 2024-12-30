@@ -16,11 +16,19 @@ function handleStripeCheckout() {
   stripePromise.then((stripe) => {
     fetch("/api/checkout_sessions", {
       method: "POST",
-      headers: { "Content-Type": "application/json" },
+      headers: {
+        "Content-Type": "application/json",
+      },
     })
-      .then((response) => response.json())
+      .then(async (response) => {
+        if (!response.ok) {
+          const error = await response.json();
+          throw new Error(error.message || "Failed to create checkout session");
+        }
+        return response.json();
+      })
       .then((session) => {
-        window.open(session.url, "_blank", "noopener,noreferrer");
+        stripe.redirectToCheckout({ sessionId: session.id });
       })
       .catch((error) => console.error("Stripe checkout error:", error));
   });

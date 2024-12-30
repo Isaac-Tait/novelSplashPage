@@ -1,9 +1,10 @@
-const stripe = require("stripe")(process.env.STRIPE_SECRET_KEY);
+import Stripe from "stripe";
+
+const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
 
 export default async function handler(req, res) {
   if (req.method === "POST") {
     try {
-      // Create Checkout Sessions from body params.
       const session = await stripe.checkout.sessions.create({
         line_items: [
           {
@@ -17,9 +18,10 @@ export default async function handler(req, res) {
         cancel_url: `${req.headers.origin}/?canceled=true`,
         automatic_tax: { enabled: true },
       });
-      res.redirect(303, session.url);
+
+      res.status(200).json({ id: session.id });
     } catch (err) {
-      res.status(err.statusCode || 500).json(err.message);
+      res.status(500).json({ error: err.message });
     }
   } else {
     res.setHeader("Allow", "POST");
