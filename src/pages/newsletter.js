@@ -33,9 +33,9 @@ export default function Substack() {
       <div className="grow place-content-center items-center">
         <p className="max-w-6xl mx-auto text-sm md:text-lg lg:text-xl font-medium tracking-wide text-center pt-8 md:p-6 lg:p-10 font-mono text-slate-700">
           I am actively publishing the saga, which is comprised of three books.
-          Aion is the first book and Part II went live mid-February 2025. I will
-          be publishing a few chapters every week. To make sure you don't miss
-          out you can follow along with{" "}
+          Aiōn is the first book and Part II went live mid-February 2025. I will
+          be publishing a few chapters every week. To make sure you don&#39;t
+          miss out you can follow along with{" "}
           <Link
             href="https://substack.com/@biit"
             className="text-indigo-400 underline hover:no-underline hover:text-indigo-500"
