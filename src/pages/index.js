@@ -19,19 +19,19 @@ export default function Home() {
               target="__blank"
               className="text-yellow-500 text-sm text-center md:text-2xl font-semibold tracking-widest hover:text-white"
             >
-              Read
+              Engage
             </Link>
             <Link
               href="/newsletter"
               className="text-yellow-500 text-sm text-center md:text-2xl font-semibold tracking-widest hover:text-white my-auto"
             >
-              Newsletter
+              Movement
             </Link>
             <Link
               href="/support"
               className="text-yellow-500 text-sm text-center md:text-2xl font-semibold tracking-widest hover:text-white"
             >
-              Support
+              Backup
             </Link>
           </div>
         </header>
