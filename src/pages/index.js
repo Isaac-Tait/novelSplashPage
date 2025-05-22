@@ -39,7 +39,7 @@ export default function Home() {
           <h1 className="font-semibold text-4xl text-center lg:text-6xl tracking-wider font-sans p-2 text-slate-600 mt-4">
             Wormwood Saga
           </h1>
-          <div className="bg-white opacity-70 rounded-lg">
+          <div className="bg-white opacity-70 rounded-lg mx-4">
             <div className="text-sm md:text-lg lg:text-xl font-medium tracking-wide text-center font-mono text-slate-700">
               <h3 className=" italic font-sans">
                 A Spiritually Mystic Speculative Queer Multiverse Epic that will
@@ -56,9 +56,9 @@ export default function Home() {
             alt="watercolor painting of Andor's mountain"
             height={400}
             width={600}
-            className="mx-auto rounded-xl"
+            className="mx-auto rounded-xl my-2"
           />
-          <div className="bg-white opacity-70 rounded-lg">
+          <div className="bg-white opacity-70 rounded-lg max-w-6xl mx-auto">
             <div className="text-sm md:text-lg lg:text-xl font-medium tracking-wide text-center font-mono text-slate-700">
               <h3 className="my-2">
                 In a universe fractured by destruction, carnage, & despair,
