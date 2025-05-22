@@ -39,13 +39,6 @@ export default function Home() {
           <h1 className="font-semibold text-4xl text-center lg:text-6xl tracking-wider font-sans p-2 text-slate-600 mt-4">
             Wormwood Saga
           </h1>
-          <Image
-            src="https://res.cloudinary.com/mountaintopcoding-127956/image/upload/v1683218121/Andor_s_Mountain_refrry.jpg"
-            alt="watercolor painting of Andor's mountain"
-            height={400}
-            width={600}
-            className="mx-auto rounded-xl"
-          />
           <div className="bg-white opacity-70 rounded-lg">
             <div className="text-sm md:text-lg lg:text-xl font-medium tracking-wide text-center font-mono text-slate-700">
               <h3 className=" italic font-sans">
@@ -56,6 +49,17 @@ export default function Home() {
                 rooted in hate, anger, and greed that have plagued our planet
                 since its inception.
               </h3>
+            </div>
+          </div>
+          <Image
+            src="https://res.cloudinary.com/mountaintopcoding-127956/image/upload/v1683218121/Andor_s_Mountain_refrry.jpg"
+            alt="watercolor painting of Andor's mountain"
+            height={400}
+            width={600}
+            className="mx-auto rounded-xl"
+          />
+          <div className="bg-white opacity-70 rounded-lg">
+            <div className="text-sm md:text-lg lg:text-xl font-medium tracking-wide text-center font-mono text-slate-700">
               <h3 className="my-2">
                 In a universe fractured by destruction, carnage, & despair,
                 Andor and Lilli flee to an austere wilderness of towering peaks
