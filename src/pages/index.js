@@ -49,20 +49,21 @@ export default function Home() {
           <div className="bg-white opacity-70 rounded-lg">
             <div className="text-sm md:text-lg lg:text-xl font-medium tracking-wide text-center font-mono text-slate-700">
               <h3 className=" italic font-sans">
-                A blend of Buddhist spirituality, Native American legend, and
-                xtian mythology, this Speculative Queer Multiverse Epic takes
-                readers on a mythical journey across realms and realities, where
-                love and karma - woven into the very fabric of time - come to a
-                head. Will it be enough to save the cosmos?
+                A Spiritually Mystic Speculative Queer Multiverse Epic that will
+                take you on a mythical journey across realms and realities,
+                where love and karma - woven into the very fabric of time -
+                collide. As this Saga unfolds it will challenge long held dogmas
+                rooted in hate, anger, and greed that have plagued our planet
+                since its inception.
               </h3>
               <h3 className="my-2">
-                In a universe fractured by destruction and despair, Andor and
-                Lilli are forced to flee to an austere wilderness of towering
-                peaks and untamed beauty. Amid alpine lakes and the snowbound
-                wilds, they uncover a deeper connection — to the land, to each
-                other, and to an enigmatic extra-dimensional task force.
-                Together, they must battle an ancient evil, threatening not just
-                everything they hold dear, but the entire universe!
+                In a universe fractured by destruction, carnage, & despair,
+                Andor and Lilli flee to an austere wilderness of towering peaks
+                and untamed beauty. As castaways adrift in a world, haunted by a
+                tenacious evil, they forge a new home. Meanwhile, in an
+                alternate dimension, a mysterious extra-dimensional task force
+                is busy tipping the scales of power to expose a ghastly evil,
+                which has hidden in plain sight for far too long.
               </h3>
             </div>
           </div>
