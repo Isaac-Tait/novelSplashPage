@@ -37,7 +37,7 @@ export default function Substack() {
           be publishing a few chapters every week. To make sure you don&#39;t
           miss out you can follow along with{" "}
           <Link
-            href="https://substack.com/@biit"
+            href="https://www.substack.mountaintopcoding.dev/"
             className="text-indigo-400 underline hover:no-underline hover:text-indigo-500"
           >
             Substack
