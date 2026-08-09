@@ -19,19 +19,19 @@ export default function Home() {
               target="__blank"
               className="text-yellow-500 text-sm text-center md:text-2xl font-semibold tracking-widest hover:text-white"
             >
-              Engage
+              Read
             </Link>
             <Link
               href="/newsletter"
               className="text-yellow-500 text-sm text-center md:text-2xl font-semibold tracking-widest hover:text-white my-auto"
             >
-              Movement
+              Newsletter
             </Link>
             <Link
               href="/support"
               className="text-yellow-500 text-sm text-center md:text-2xl font-semibold tracking-widest hover:text-white"
             >
-              Backup
+              Support
             </Link>
           </div>
         </header>
@@ -42,12 +42,12 @@ export default function Home() {
           <div className="bg-white opacity-70 rounded-lg mx-4">
             <div className="text-sm md:text-lg lg:text-xl font-medium tracking-wide text-center font-mono text-slate-700">
               <h3 className=" italic font-sans">
-                A Spiritually Mystic Speculative Queer Multiverse Epic that will
-                take you on a mythical journey across realms and realities,
-                where love and karma - woven into the very fabric of time -
-                collide. As this Saga unfolds it will challenge long held dogmas
-                rooted in hate, anger, and greed that have plagued our planet
-                since its inception.
+                A Spiritually Mystic Speculative Queer Multiverse Epic - prepart
+                to embark on a saga take you on a mythical journey across realms
+                and realities, where love and karma - woven into the very fabric
+                of time - collide. As this Saga unfolds it will challenge long
+                held dogmas rooted in hate, ignorance, and greed that have
+                plagued our planet since it began.
               </h3>
             </div>
           </div>
