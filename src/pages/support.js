@@ -13,21 +13,21 @@ export default function Support() {
             target="__blank"
             className="text-yellow-500 text-sm text-center md:text-2xl font-semibold tracking-widest hover:text-white"
           >
-            Engage
+            Read
           </Link>
           <Link
             href="/"
             target="__blank"
             className="text-yellow-500 text-sm text-center md:text-2xl font-semibold tracking-widest hover:text-white"
           >
-            FOB
+            Home
           </Link>
           <Link
             href="/newsletter"
             target="__blank"
             className="text-yellow-500 text-sm text-center md:text-2xl font-semibold tracking-widest hover:text-white my-auto"
           >
-            Movement
+            Newsletter
           </Link>
         </div>
       </header>

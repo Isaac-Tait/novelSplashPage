@@ -12,21 +12,21 @@ export default function Substack() {
             target="__blank"
             className="text-yellow-500 text-sm text-center md:text-2xl font-semibold tracking-widest hover:text-white"
           >
-            Engage
+            Read
           </Link>
           <Link
             href="/"
             target="__blank"
             className="text-yellow-500 text-sm text-center md:text-2xl font-semibold tracking-widest hover:text-white my-auto"
           >
-            FOB
+            Home
           </Link>
           <Link
             href="/support"
             target="__blank"
             className="text-yellow-500 text-sm text-center md:text-2xl font-semibold tracking-widest hover:text-white"
           >
-            Backup
+            Support
           </Link>
         </div>
       </header>
