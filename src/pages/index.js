@@ -51,13 +51,13 @@ export default function Home() {
             </h3>
           </div>
 
-          <div className="relative flex-1 min-h-0 mx-auto w-full max-w-2xl">
+          <div className="relative flex-1 min-h-0 mx-auto w-full max-w-2xl overflow-hidden rounded-xl">
             <Image
               src="https://res.cloudinary.com/mountaintopcoding-127956/image/upload/v1683218121/Andor_s_Mountain_refrry.jpg"
               alt="watercolor painting of Andor's mountain"
               fill
               sizes="(max-width: 768px) 90vw, 600px"
-              className="object-contain rounded-xl"
+              className="object-cover"
             />
           </div>
 
