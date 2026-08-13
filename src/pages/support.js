@@ -65,12 +65,13 @@ export default function Support() {
               &quot;selling&quot; their book. As an indie author I have worn all
               those hats in the publication of my book. It was a lot of work but
               also very rewarding. So, thanks for being here. I hope the saga
-              has had (is having) a positive impact on you. You can{" "}
+              has had (is having) a positive impact on you. I would love it if
+              you would support the saga, and if you feel so inclined you can{" "}
               <Link
                 href="https://buymeacoffee.com/isaactait"
                 className="text-indigo-400 underline hover:no-underline hover:text-indigo-500"
               >
-                support the saga here
+                do so here
               </Link>
             </p>
             <p className="font-serif text-slate-900 text-center mt-4">
