@@ -14,24 +14,25 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="heropattern-topography-yellow-400 bg-gray-100 h-dvh w-full overflow-hidden flex flex-col">
-        <header className="shrink-0 w-full md:px-2 bg-slate-600 font-serif">
+        {/* Desktop nav only — mobile nav lives in the bottom tab bar */}
+        <header className="hidden md:block shrink-0 w-full md:px-2 bg-slate-600 font-serif">
           <div className="flex max-w-4xl justify-between mx-auto px-2">
             <Link
               href="https://story.wormwoodsaga.com"
               target="_blank"
-              className="text-yellow-500 text-sm text-center md:text-2xl font-semibold tracking-widest hover:text-white"
+              className="text-yellow-500 text-2xl font-semibold tracking-widest hover:text-white"
             >
               Read
             </Link>
             <Link
               href="/newsletter"
-              className="text-yellow-500 text-sm text-center md:text-2xl font-semibold tracking-widest hover:text-white my-auto"
+              className="text-yellow-500 text-2xl font-semibold tracking-widest hover:text-white my-auto"
             >
               Newsletter
             </Link>
             <Link
               href="/support"
-              className="text-yellow-500 text-sm text-center md:text-2xl font-semibold tracking-widest hover:text-white"
+              className="text-yellow-500 text-2xl font-semibold tracking-widest hover:text-white"
             >
               Support
             </Link>
@@ -102,7 +103,91 @@ export default function Home() {
           </button>
         </main>
 
-        <div className="shrink-0 pb-2">
+        {/* Mobile bottom tab bar — replaces top nav, sits in the thumb zone */}
+        <nav
+          className="md:hidden shrink-0 bg-slate-600 font-serif"
+          aria-label="Primary"
+        >
+          <div className="flex justify-around items-center pt-1.5 pb-[calc(0.375rem+env(safe-area-inset-bottom))]">
+            <Link
+              href="https://story.wormwoodsaga.com"
+              target="_blank"
+              className="flex flex-col items-center gap-0.5 px-4 py-1 text-yellow-500 hover:text-white"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth={1.75}
+                className="w-6 h-6"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M12 6.5c-1.6-1.3-3.9-2-6.5-2-.6 0-1 .4-1 1v11c0 .6.4 1 1 1 2.6 0 4.9.7 6.5 2 1.6-1.3 3.9-2 6.5-2 .6 0 1-.4 1-1v-11c0-.6-.4-1-1-1-2.6 0-4.9.7-6.5 2z"
+                />
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M12 6.5v13"
+                />
+              </svg>
+              <span className="text-xs font-semibold tracking-wide">Read</span>
+            </Link>
+            <Link
+              href="/newsletter"
+              className="flex flex-col items-center gap-0.5 px-4 py-1 text-yellow-500 hover:text-white"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth={1.75}
+                className="w-6 h-6"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M3.5 6.75A1.25 1.25 0 014.75 5.5h14.5a1.25 1.25 0 011.25 1.25v10.5a1.25 1.25 0 01-1.25 1.25H4.75a1.25 1.25 0 01-1.25-1.25V6.75z"
+                />
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M4 6.5l8 6.25 8-6.25"
+                />
+              </svg>
+              <span className="text-xs font-semibold tracking-wide">
+                Newsletter
+              </span>
+            </Link>
+            <Link
+              href="/support"
+              className="flex flex-col items-center gap-0.5 px-4 py-1 text-yellow-500 hover:text-white"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth={1.75}
+                className="w-6 h-6"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M12 20.5s-7.5-4.6-9.7-9.1C.9 8.2 2.3 5 5.4 4.4c1.9-.4 3.7.5 4.6 2.1.9-1.6 2.7-2.5 4.6-2.1 3.1.6 4.5 3.8 3.1 7-2.2 4.5-9.7 9.1-9.7 9.1z"
+                />
+              </svg>
+              <span className="text-xs font-semibold tracking-wide">
+                Support
+              </span>
+            </Link>
+          </div>
+        </nav>
+
+        <div className="hidden md:block shrink-0 pb-2">
           <Footer />
         </div>
       </div>
