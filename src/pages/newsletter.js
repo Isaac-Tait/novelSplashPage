@@ -31,7 +31,7 @@ export default function Substack() {
             </Link>{" "}
             and/or{" "}
             <Link
-              href="https://bsky.app/profile/enlightenednomad.bsky.social"
+              href="https://bsky.app/profile/mountaintopcoding.dev"
               className="text-indigo-400 underline hover:no-underline hover:text-indigo-500"
             >
               Bluesky
